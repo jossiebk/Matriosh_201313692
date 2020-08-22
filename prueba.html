@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="MetodosInterfaz.js"></script>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="jquery-linenumbers.js"></script>
+	<script>$('document').ready(function(){
+		$('#entrada').linenumbers({col_width:'25px'});
+	})</script>
+  <title>Jossie Castrillo 201313692</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+        <div class="container" >
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" onclick="Ejecutar()"><span class="fa fa-home fa-lg"></span> Ejecutar</a> </li>
+                    <li class="nav-item"><a class="nav-link" onclick="Traducir()"><span class="fa fa-info fa-lg"></span> Traducir</a> </li>
+                </ul>
+            
+            </div>
+        </div>
+    </nav>
+    <div>
+        <textarea id="entrada"></textarea><br>
+        <textarea id="salida" name="salida" ></textarea>
+    </div>
+        
+</body>
+</html>

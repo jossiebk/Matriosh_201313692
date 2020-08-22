@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <!-- esta linea permite hacerlo responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Jossie Castrillo 201313692</title>
+</head>
+
+<body>
+<nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+    <div class="container" >
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" onclick="Ejecutar()"><span class="fa fa-home fa-lg"></span> Ejecutar</a> </li>
+                <li class="nav-item"><a class="nav-link" onclick="Traducir()"><span class="fa fa-info fa-lg"></span> Traducir</a> </li>
+                <li class="nav-item"><a class="nav-link" ><span class="fa fa-info fa-lg"></span> Reporte de tabla de simbolos</a> </li>
+                <li class="nav-item"><a class="nav-link" ><span class="fa fa-info fa-lg"></span> Errores</a> </li>
+                <li class="nav-item"><a class="nav-link" ><span class="fa fa-info fa-lg"></span> Reporte AST</a> </li>
+            </ul>
+        
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="row">
+                    <div id="central" class="col-7 col-sm-5">
+                        <textarea id="entrada" name="entrada" rows="17" cols="150"></textarea>
+                    </div>
+            </div>
+            <div class="row">
+                <div id="central2" class="col-7 col-sm-5">
+                    <textarea id="salida" name="salida" rows="9" cols="150"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-7 col-sm-5">
+                    <h5>Informacion</h5>
+                    <address>
+		              Jossie Bismarck Castrillo Fajardo<br>
+		              201313692<br>
+                      Organizacion de Lenguajes y Compiladores 2<br>
+                      Seccion C <br>
+		           </address>
+                </div>
+           </div>
+ 
+        </div>
+    </footer>
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+ <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <script src="MetodosInterfaz.js"></script>
+    
+</body>
+</html>
